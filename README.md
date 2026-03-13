@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Front-End Testing with Jest and React Testing Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-JavaScript-blue)
+![Jest](https://img.shields.io/badge/Jest-Testing-red)
+![Testing Library](https://img.shields.io/badge/React-Testing%20Library-green)
 
-## Available Scripts
+## Overview
+This project demonstrates how to perform **front-end testing in a React application using Jest and React Testing Library**. The goal is to verify that React components render correctly, handle user interactions, and maintain consistent UI output using snapshot testing.
 
-In the project directory, you can run:
+The project includes **unit testing, form validation testing, and snapshot testing** to ensure the reliability and stability of the application.
 
-### `npm start`
+## Description
+Front-end testing ensures that UI components behave as expected and provide a consistent user experience. This project focuses on testing React components using modern testing tools.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The implementation includes:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Unit testing of a simple React component (Button)
+- Form testing to validate user input and submission
+- Snapshot testing for complex UI components to detect unexpected changes
 
-### `npm test`
+Jest acts as the testing framework while React Testing Library simulates real user interactions with components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- Unit testing for React components
+- Form validation testing
+- Snapshot testing for UI consistency
+- Simulated user interaction testing
+- Automated test execution using Jest
+- Clear test structure for scalable applications
 
-### `npm run build`
+## Technology Stack
+- **React.js** – Frontend library for building user interfaces  
+- **JavaScript (ES6)** – Application logic  
+- **Jest** – JavaScript testing framework  
+- **React Testing Library** – UI testing utilities  
+- **react-test-renderer** – Used for snapshot testing  
+- **Node.js & npm** – Development environment and package management  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
+<img width="296" height="310" alt="Screenshot 2026-03-13 at 11 19 23 PM" src="https://github.com/user-attachments/assets/da66d675-a320-41e0-bb32-425bf9fd42ca" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Output
+<img width="818" height="304" alt="Screenshot 2026-03-13 at 11 18 37 PM" src="https://github.com/user-attachments/assets/0ef6b0c1-07d3-488d-b560-256abce90aea" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
