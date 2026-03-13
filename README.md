@@ -28,6 +28,12 @@ Jest acts as the testing framework while React Testing Library simulates real us
 - Automated test execution using Jest
 - Clear test structure for scalable applications
 
+## Project Structure
+<img width="296" height="310" alt="Screenshot 2026-03-13 at 11 19 23 PM" src="https://github.com/user-attachments/assets/da66d675-a320-41e0-bb32-425bf9fd42ca" />
+
+## Output
+<img width="818" height="304" alt="Screenshot 2026-03-13 at 11 18 37 PM" src="https://github.com/user-attachments/assets/0ef6b0c1-07d3-488d-b560-256abce90aea" />
+
 ## Technology Stack
 - **React.js** – Frontend library for building user interfaces  
 - **JavaScript (ES6)** – Application logic  
@@ -36,9 +42,5 @@ Jest acts as the testing framework while React Testing Library simulates real us
 - **react-test-renderer** – Used for snapshot testing  
 - **Node.js & npm** – Development environment and package management  
 
-## Project Structure
-<img width="296" height="310" alt="Screenshot 2026-03-13 at 11 19 23 PM" src="https://github.com/user-attachments/assets/da66d675-a320-41e0-bb32-425bf9fd42ca" />
-
-## Output
-<img width="818" height="304" alt="Screenshot 2026-03-13 at 11 18 37 PM" src="https://github.com/user-attachments/assets/0ef6b0c1-07d3-488d-b560-256abce90aea" />
-
+## Conclusion
+This project successfully demonstrates how to implement front-end testing in React applications using Jest and React Testing Library. Unit tests validate component functionality, form tests verify user interactions, and snapshot tests ensure UI consistency. These practices improve code reliability and help detect issues early during development.
